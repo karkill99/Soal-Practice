@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShowPassWord</title>
+    <style>
+      div {
+        box-shadow: 0 0 10px black;
+        width: 500px;
+        padding: 50px;
+        text-align: center;
+        margin: 100px auto;
+      }
+    </style>
+    <script>
+      function ShowData() {
+        // Getting Reference
+        let h1Reference = document.getElementById("h1Ref");
+        let inputReference = document.getElementById("inputRef");
+        let btnReference = document.getElementById("btnRef");
+
+        if (inputReference.type === "password") {
+          h1Reference.innerText = "Change-To-Pass";
+          inputReference.type = "text";
+          btnReference.innerText = "Hide Password";
+        } else {
+          h1Reference.innerText = "Change-To-Text";
+          inputReference.type = "password";
+          btnReference.innerText = "Show Password";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div>
+      <h1 id="h1Ref">Change-To-Text</h1>
+      <input id="inputRef" type="password" />
+      <button id="btnRef" onclick="ShowData()">Show Password</button>
+    </div>
+  </body>
+</html>
