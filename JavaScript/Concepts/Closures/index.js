@@ -18,18 +18,18 @@ for (var i = 1; i <= 5; i++) {
 
 // *********************************
 
-// var a = 10;
-// setTimeout(() => {
-//   console.log(a);
-// }, 3000);
+var a = 10;
+setTimeout(() => {
+  console.log(a);
+}, 3000);
 
 // ****************************
 
-// for (let i = 1; i <= 5; i++) {
-//   setTimeout(() => {
-//     console.log(i);
-//   }, i * 1000);
-// }
+for (let i = 1; i <= 5; i++) {
+  setTimeout(() => {
+    console.log(i);
+  }, i * 1000);
+}
 
 // *********************
 var j = 10;
@@ -39,6 +39,16 @@ setTimeout(() => {
 
 
 console.log("Namaste_JavaScript");
+
+import React from 'react'
+
+export default function index() {
+  return (
+    <div>
+      
+    </div>
+  )
+}
 
 import React from 'react'
 
