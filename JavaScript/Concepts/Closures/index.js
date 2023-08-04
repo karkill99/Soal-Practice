@@ -43,7 +43,6 @@ setTimeout(() => {
 
 console.log("Namaste_JavaScript");
 
-rfc
 
 
 
