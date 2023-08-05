@@ -43,5 +43,4 @@ setTimeout(() => {
 
 console.log("Namaste_JavaScript");
 
-rfcs
 
