@@ -5,7 +5,6 @@ let sayMyName = function() {
 
     console.log("Hiesenberg");
 }
-rfc
 console.log(sayMyName());
 // sayMyName();
 
