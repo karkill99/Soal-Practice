@@ -8,7 +8,6 @@ let sayMyName = function() {
 console.log(sayMyName());
 // sayMyName();
 
-rfc
 
 // ************************function Expression *******************
 
