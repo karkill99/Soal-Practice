@@ -9,6 +9,3 @@ function prntname() {
   console.log("abxx");
 }
 // callbc();
-
-
-rfc
