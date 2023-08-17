@@ -7,4 +7,3 @@ function reverseString(str){
 }
 
 reverseString(str);
-
