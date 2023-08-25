@@ -1,3 +1,4 @@
+
 let number = parseInt(prompt("Ener Any Number"));
 let number2 = parseInt(prompt("Enter second number"));
 
