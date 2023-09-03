@@ -1,4 +1,3 @@
-
 // let obj = {
 //   name: "kartik",
 //   place: "deoni",
