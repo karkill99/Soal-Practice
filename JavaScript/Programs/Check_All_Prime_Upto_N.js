@@ -2,6 +2,7 @@
 
 
 
+
 // WAP a program to print all prime numbers upto N
 
 let n = parseInt(prompt("Enter Any Number"));
