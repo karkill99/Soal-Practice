@@ -1,3 +1,4 @@
+
 let number = 1234567;
 let sumOfNumber = 0;
 let productOfNumber = 1;
