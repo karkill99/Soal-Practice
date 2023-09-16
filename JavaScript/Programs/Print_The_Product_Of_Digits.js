@@ -1,3 +1,4 @@
+
 // WAP Print_The_Sum_Of_Digits
 let number = 12345;
 let sum = 1;
