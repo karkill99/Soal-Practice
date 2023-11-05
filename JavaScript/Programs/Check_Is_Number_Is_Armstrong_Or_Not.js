@@ -1,4 +1,3 @@
-
 let number = parseInt(prompt("Enter Any Number"));
 let arm = 0;
 
